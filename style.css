@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    border: 10px solid #2747ff;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.inside {
+    background-color: rgb(14, 6, 83);
+    color: rgb(255, 255, 255);
+    
+  
+
+}
+
+.outside{
+    background-color: rgb(255, 0, 98);
+    color: rgb(255, 255, 255);
+
+}
+.clicked {
+    background-color: rgb(88, 255, 11);
+    color: rgb(0, 0, 0);
+}
